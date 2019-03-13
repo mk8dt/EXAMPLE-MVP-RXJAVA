@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <include layout="@layout/toolbar_layout"/>
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/image_superhero_detail"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            tools:src="@mipmap/ic_launcher"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.TextView"
+            android:layout_below="@id/image_superhero_detail"
+            android:text="@string/name"/>
+
+
+    <TextView
+            android:id="@+id/name_superhero_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/image_superhero_detail"
+            tools:text="@string/name"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.TextView"
+            android:layout_below="@id/name_superhero_detail"
+            android:text="@string/real_name"/>
+
+    <TextView
+            android:id="@+id/realname_superhero_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/name_superhero_detail"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            tools:text="Nombre"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.TextView"
+            android:layout_below="@id/realname_superhero_detail"
+            android:text="@string/height"/>
+
+    <TextView
+            android:id="@+id/height_superhero_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/realname_superhero_detail"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            tools:text="Nombre"/>
+
+    <TextView
+            android:id="@+id/abilities_superhero_detail_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.TextView"
+            android:layout_below="@id/height_superhero_detail"
+            android:text="@string/abilities"/>
+
+    <TextView
+            android:id="@+id/abilities_superhero_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_below="@id/abilities_superhero_detail_label"
+            android:layout_marginTop="8dp"
+            tools:text="Nombre"/>
+
+    <TextView
+            android:id="@+id/power_superhero_detail_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.TextView"
+            android:layout_below="@id/abilities_superhero_detail"
+            android:text="@string/power"/>
+
+    <TextView
+            android:id="@+id/power_superhero_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_below="@id/power_superhero_detail_label"
+            tools:text="Nombre"/>
+
+    <TextView
+            android:id="@+id/group_superhero_detail_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.TextView"
+            android:layout_below="@id/power_superhero_detail"
+            android:text="@string/group"/>
+
+    <TextView
+            android:id="@+id/group_superhero_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_below="@id/group_superhero_detail_label"
+            tools:text="Nombre"/>
+
+</RelativeLayout>

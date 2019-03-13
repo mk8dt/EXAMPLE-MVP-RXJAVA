@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SuperHeroe</string>
+    <string name="error_message">Ha ocurrido un error</string>
+    <string name="toolbar_title">SuperHeroes</string>
+    <string name="name">Name</string>
+    <string name="real_name">Real Name</string>
+    <string name="height">Height</string>
+    <string name="abilities">Abilities</string>
+    <string name="power">Power</string>
+    <string name="group">Groups</string>
+</resources>
